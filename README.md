@@ -24,12 +24,12 @@ Budget Tracker that allows you to add deposits and deduct transactions with offl
 
 ## Installation
 ----------
-Install commands with `npm i`
-Run `npm start` to begin application
+* Install commands with `npm i`
+* Run `npm start` to begin application
 
 ## Visualization
 ----------
-![Budget Tracker](public\assets\img\budgetTacker.png)
+![Budget Tracker](public\assets\budgetTracker.png)
 
 ## License
 -----------
