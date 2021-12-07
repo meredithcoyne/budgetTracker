@@ -13,6 +13,7 @@ Application that tracks financial transactions that have offline capabilities to
   -------------
   * [Usage](#usage) 
   * [Installation](#installation)  
+  * [Visualization](#visualization)
   * [License](#license) 
   * [Contact](#contact) 
 
@@ -25,8 +26,11 @@ Budget Tracker that allows you to add deposits and deduct transactions with offl
 ----------
 Install commands with `npm i`
 Run `npm start` to begin application
- 
 
+## Visualization
+
+![Budget Tracker](public\assets\img\budgetTacker.png)
+----------
 ## License
 -----------
 Copyright 2021 Meredith Coyne
