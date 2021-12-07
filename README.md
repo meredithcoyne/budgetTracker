@@ -28,9 +28,9 @@ Install commands with `npm i`
 Run `npm start` to begin application
 
 ## Visualization
-
-![Budget Tracker](public\assets\img\budgetTacker.png)
 ----------
+![Budget Tracker](public\assets\img\budgetTacker.png)
+
 ## License
 -----------
 Copyright 2021 Meredith Coyne
