@@ -7,39 +7,24 @@
 
 Application that tracks financial transactions that have offline capabilities to add Deposits and Expenses and then add back into tracker when brought back online. 
 
- [Budget Tracker Deployed Page ]()
+ [Budget Tracker Deployed Page ](https://coyne-budget-tracker.herokuapp.com/)
 
  ## Table of Contents
   -------------
   * [Usage](#usage) 
   * [Installation](#installation)  
-  * [Test](#test)
-  * [Problems](#problems)
-  * [Visualization](#visualization)
-  * [Technologies](#technologies)
-  * [Acknowledgements](#acknowledgements)
-  * [Contributions](#contributions)
-  * [Resources](#resources)
   * [License](#license) 
   * [Contact](#contact) 
 
 
 ## Usage
 -------
-Budget Tracker that allows you to add deposits and deduct transactions with offline capacilities. 
+Budget Tracker that allows you to add deposits and deduct transactions with offline capabilities. 
 
 ## Installation
 ----------
 Install commands with `npm i`
 Run `npm start` to begin application
-
-## Visualization
------------
-
-## Technologies
-------------
-
-
  
 
 ## License
