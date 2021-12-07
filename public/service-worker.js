@@ -15,19 +15,18 @@ self.addEventListener(`install`, e => {
 });
 
     
-self.addEventListener("activate", function (evt) {
-    evt.waitUntil(
-        caches.keys().then(keyList => {
-            return Promise.all(
-                keyList.map(key => {
-                    if (key !== CACHE_NAME && key !== DATA_CACHE_NAME) {
-                        console.log("Removing old cache data", key);
-                        return caches.delete(key);
-                    }
-                })
-            );
-        })
+self.addEventListener(`activate`, e => {
+    const currentCaches = [STATIC_CACHE, RUNTIME_CACHE];
+    e.waitUntil(
+        caches
+            .keys()
+            .then(cacheNames => 
+                cacheNames.filter(cacheName => !currentCaches.includes(cacheName))
+            ) .then (deleteCaches => 
+                Promise.all(
+                    deleteCaches.map(deleteCaches => caches.delete(deleteCaches))
+            )
+        ) .then(() => self.clients.claim())
     );
-
-    self.clients.claim();
 });
+
