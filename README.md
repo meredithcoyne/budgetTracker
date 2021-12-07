@@ -29,7 +29,7 @@ Budget Tracker that allows you to add deposits and deduct transactions with offl
 
 ## Visualization
 ----------
-![Budget Tracker](public\assets\budgetTracker.png)
+![Budget Tracker](public/assets/budgetTracker.png)
 
 ## License
 -----------
